@@ -63,8 +63,15 @@ fun areColorsDistant(colors: List<String>, minDistance: Int): Boolean {
 
 fun main() {
     val existingColors = listOf(
-        "#00FF00"
-        , "#FF0000"
+        "#ED8CF5", "#56C22E", "#76023D", "#5A0AAE", "#CE9753",
+        "#3BF15F", "#EA3B1E", "#FFC5CC", "#F1E583", "#7F6C0B",
+        "#0A6AA8", "#73F8A6", "#87948D", "#D50641", "#3310F6",
+        "#47E6F7", "#032F6D", "#C528D9", "#AA4EA5", "#D2EC23",
+        "#552606", "#8BC3D3", "#7E2DFA", "#5B6EDB", "#12EAAB",
+        "#0478FD", "#C6AD99", "#2D813B", "#FB2B97", "#A5E167",
+        "#AF097E", "#5A5082",
+        "#130320"
+        , "#DFF7F9"
     )
 
     val minDistance = 100
